@@ -1,12 +1,7 @@
 import { useEffect, useState } from "react";
 import { Nav } from "./components/nav";
 import "./App.css";
-import {
-  Outlet,
-  useLoaderData,
-  useLocation,
-  useNavigation,
-} from "react-router";
+import { Outlet, useLocation } from "react-router";
 
 function App() {
   const location = useLocation();
